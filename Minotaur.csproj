@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\bg_map.jpg" />
+    <None Remove="resources\bg_map2.jpg" />
+    <None Remove="resources\blank.jpg" />
+    <None Remove="resources\controls.png" />
+    <None Remove="resources\defeat.jpg" />
+    <None Remove="resources\defeat.png" />
+    <None Remove="resources\exit.png" />
+    <None Remove="resources\hero.jpg" />
+    <None Remove="resources\hero_def.jpg" />
+    <None Remove="resources\hero_vict.jpg" />
+    <None Remove="resources\mino.jpg" />
+    <None Remove="resources\run.png" />
+    <None Remove="resources\victory.png" />
+    <None Remove="resources\wall.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\bg_map.jpg" />
+    <Resource Include="resources\bg_map2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\blank.jpg" />
+    <Resource Include="resources\controls.png" />
+    <Resource Include="resources\defeat.png" />
+    <Resource Include="resources\exit.png" />
+    <Resource Include="resources\hero.jpg" />
+    <Resource Include="resources\hero_def.jpg" />
+    <Resource Include="resources\hero_vict.jpg" />
+    <Resource Include="resources\mino.jpg" />
+    <Resource Include="resources\run.png" />
+    <Resource Include="resources\victory.png" />
+    <Resource Include="resources\wall.jpg" />
+  </ItemGroup>
+
+</Project>

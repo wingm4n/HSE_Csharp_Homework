@@ -1,0 +1,19 @@
+﻿<Window x:Class="Minotaur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minotaur"
+        mc:Ignorable="d"
+        Title="Minotaur" Width="1900" Height="1000"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow"
+        WindowState="Maximized"
+        
+        KeyUp ="Window_KeyUp"
+        KeyDown="Window_KeyDown"
+        Icon="/resources/mino.jpg">
+    <Grid>
+
+    </Grid>
+</Window>
